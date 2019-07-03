@@ -1,0 +1,28 @@
+<table class="author">
+  <tr>
+    <th>No</th>
+    <th>Author Name</th>
+    <th>Title</th>
+    <th>Content</th>
+    <th>Publication Date</th>
+  </tr>
+  {{#each this.model as |Author|}}
+ 
+ <tr>
+     <td>{{Author.id}}</td>
+    <td>{{Author.author}}</td>
+    <td>{{Author.content}}</td>
+    <td>{{Author.title}}</td>
+    <td>{{Author.pd}}</td>
+  </tr>
+   
+    
+  {{/each}}
+  
+  
+</table>
+
+
+  
+
+    
